@@ -19,7 +19,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         val db = AppDatabase.getDatabase(this)
-        val eventDao = db.eventDao()
 
         setContent {
             RoversCalendarTheme {
